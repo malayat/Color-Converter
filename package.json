@@ -1,0 +1,17 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "Converter RGB to Hexadecimal format and viceversa",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Alejandro Ayala",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "express": "^4.13.1",
+    "mocha": "^2.2.5",
+    "request": "^2.60.0"
+  }
+}
